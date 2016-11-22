@@ -101,14 +101,14 @@ formatter.match({
   "location": "EchoStepdefs.Method(String)"
 });
 formatter.result({
-  "duration": 144317747,
+  "duration": 135251260,
   "status": "passed"
 });
 formatter.match({
   "location": "EchoStepdefs.AskEcho()"
 });
 formatter.result({
-  "duration": 76420,
+  "duration": 77003,
   "status": "passed"
 });
 formatter.match({
@@ -121,7 +121,7 @@ formatter.match({
   "location": "EchoStepdefs.Receive(String)"
 });
 formatter.result({
-  "duration": 2100728,
+  "duration": 2031266,
   "status": "passed"
 });
 formatter.scenario({
@@ -163,14 +163,14 @@ formatter.match({
   "location": "EchoStepdefs.Method(String)"
 });
 formatter.result({
-  "duration": 98214,
+  "duration": 98478,
   "status": "passed"
 });
 formatter.match({
   "location": "EchoStepdefs.AskEcho()"
 });
 formatter.result({
-  "duration": 25478,
+  "duration": 29590,
   "status": "passed"
 });
 formatter.match({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "EchoStepdefs.Receive(String)"
 });
 formatter.result({
-  "duration": 80879,
+  "duration": 83421,
   "status": "passed"
 });
 });
