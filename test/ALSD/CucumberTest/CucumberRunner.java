@@ -1,16 +1,17 @@
 package ALSD.CucumberTest;
 
+import org.junit.runner.RunWith;
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
-import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin = { "pretty", "html:target/cucumber" },
 		monochrome = true,
-		features = "classpath:resources/story.feature"
+		features = "classpath:resources/certificate.feature"
 		)
 
-public class EchoTest {
+public class CucumberRunner {
 
 }
