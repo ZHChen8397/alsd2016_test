@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Generate Certificates",
+        "description": "",
+        "id": "certificate;generate-certificates",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 934249198,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I prepare data for generate certificates",
+            "match": {
+              "location": "CertificateStep.Prepare()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12075,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I send the background of the certificate to backend",
+            "match": {
+              "location": "CertificateStep.SendBackGround()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8452,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send student and course information to backend",
+            "match": {
+              "location": "CertificateStep.SendInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10264,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I receive certificates",
+            "match": {
+              "location": "CertificateStep.Receive()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Certificate",
+    "description": "",
+    "id": "certificate",
+    "keyword": "Feature",
+    "uri": "resources/certificate.feature"
+  }
+]

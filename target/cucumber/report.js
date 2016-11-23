@@ -38,28 +38,28 @@ formatter.match({
   "location": "CertificateStep.Prepare()"
 });
 formatter.result({
-  "duration": 900194830,
+  "duration": 934249198,
   "status": "passed"
 });
 formatter.match({
   "location": "CertificateStep.SendBackGround()"
 });
 formatter.result({
-  "duration": 13282,
+  "duration": 12075,
   "status": "passed"
 });
 formatter.match({
   "location": "CertificateStep.SendInfo()"
 });
 formatter.result({
-  "duration": 9056,
+  "duration": 8452,
   "status": "passed"
 });
 formatter.match({
   "location": "CertificateStep.Receive()"
 });
 formatter.result({
-  "duration": 12377,
+  "duration": 10264,
   "status": "passed"
 });
 });
