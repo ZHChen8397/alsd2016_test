@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		plugin = { "pretty", "html:target/cucumber" },
 		monochrome = true,
-		features = "classpath:resources/certificate.feature"
-		)
+		features = {"classpath:resources/certificate.feature"}
+)
 
 public class CucumberRunner {
 
