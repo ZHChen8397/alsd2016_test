@@ -7,6 +7,5 @@ Feature: Get API
 
     Examples: 
       | method	|	String			|
-      |	/		|	Hello world.	|
-      
+      |			|	Hello world.	|
   

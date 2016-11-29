@@ -45,7 +45,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "/",
+        "",
         "Hello world."
       ],
       "line": 10,
@@ -64,7 +64,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 4,
-  "name": "api url \"/\"",
+  "name": "api url \"\"",
   "matchedColumns": [
     0
   ],
@@ -86,21 +86,21 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "/",
+      "val": "",
       "offset": 9
     }
   ],
   "location": "EchoStepdefs.readURL(String)"
 });
 formatter.result({
-  "duration": 167424716,
+  "duration": 142329101,
   "status": "passed"
 });
 formatter.match({
   "location": "EchoStepdefs.askAPI()"
 });
 formatter.result({
-  "duration": 1438110466,
+  "duration": 1189113661,
   "status": "passed"
 });
 formatter.match({
@@ -113,7 +113,7 @@ formatter.match({
   "location": "EchoStepdefs.Receive(String)"
 });
 formatter.result({
-  "duration": 1581957,
+  "duration": 1810339,
   "status": "passed"
 });
 });

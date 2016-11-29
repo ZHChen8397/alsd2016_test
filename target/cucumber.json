@@ -12,15 +12,15 @@
         "steps": [
           {
             "result": {
-              "duration": 167424716,
+              "duration": 142329101,
               "status": "passed"
             },
             "line": 4,
-            "name": "api url \"/\"",
+            "name": "api url \"\"",
             "match": {
               "arguments": [
                 {
-                  "val": "/",
+                  "val": "",
                   "offset": 9
                 }
               ],
@@ -33,7 +33,7 @@
           },
           {
             "result": {
-              "duration": 1438110466,
+              "duration": 1189113661,
               "status": "passed"
             },
             "line": 5,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 1581957,
+              "duration": 1810339,
               "status": "passed"
             },
             "line": 6,
