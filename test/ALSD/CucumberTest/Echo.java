@@ -6,16 +6,26 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class Echo {
-	private final String echo;
-	String url = "http://140.124.183.89:8787";
+
+	String url = "https://alsd2016.cfapps.io";
 	String USER_AGENT = "Mozilla/5.0";
+	String result;
 	
-	public Echo(String echo) {
-		this.echo = echo;
+	public void giveMethodURL(String method) {
+	
+		url = url + method;
 	}
 	
-	public String askEcho() {
-		return "Hello " + echo + "!";
+	public String askAPI() {
+		
+		try {
+			sendGet();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return result;
 	}
 	
 	public void sendGet() throws Exception {
@@ -33,8 +43,7 @@ public class Echo {
 		System.out.println("\nSending 'GET' request to URL : " + url);
 		System.out.println("Response Code : " + responseCode);
 
-		BufferedReader in = new BufferedReader(
-		        new InputStreamReader(con.getInputStream()));
+		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 		String inputLine;
 		StringBuffer response = new StringBuffer();
 
@@ -43,9 +52,6 @@ public class Echo {
 		}
 		in.close();
 
-		//print result
-		System.out.println(response.toString());
-
+		result = response.toString();
 	}
-
 }

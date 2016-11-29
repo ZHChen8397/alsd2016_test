@@ -1,13 +1,12 @@
 Feature: echo
 
   Scenario Outline: Hello User!
-    Given name "<A>" for echo method
-    When I ask echo
-    Then I receive "<B>"
+    Given api url "<method>"
+    When I ask url
+    Then I receive "<String>"
 
     Examples: 
-      | A     | B            |
-      | Dopiz | Hello Dopiz! |
-      | James | Hello James! |
+      | method	|	String			|
+      |	/		|	Hello world.	|
       
   
