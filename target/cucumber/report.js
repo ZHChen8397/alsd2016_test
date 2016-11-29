@@ -93,14 +93,14 @@ formatter.match({
   "location": "EchoStepdefs.readURL(String)"
 });
 formatter.result({
-  "duration": 142329101,
+  "duration": 215983309,
   "status": "passed"
 });
 formatter.match({
   "location": "EchoStepdefs.askAPI()"
 });
 formatter.result({
-  "duration": 1189113661,
+  "duration": 1751732122,
   "status": "passed"
 });
 formatter.match({
@@ -113,7 +113,7 @@ formatter.match({
   "location": "EchoStepdefs.Receive(String)"
 });
 formatter.result({
-  "duration": 1810339,
+  "duration": 1713654,
   "status": "passed"
 });
 });
