@@ -1,6 +1,6 @@
-Feature: echo
+Feature: Get API
 
-  Scenario Outline: Hello User!
+  Scenario Outline: Get API!
     Given api url "<method>"
     When I ask url
     Then I receive "<String>"

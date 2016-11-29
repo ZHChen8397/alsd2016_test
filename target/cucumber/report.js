@@ -1,16 +1,16 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("resources/story.feature");
 formatter.feature({
   "line": 1,
-  "name": "echo",
+  "name": "Get API",
   "description": "",
-  "id": "echo",
+  "id": "get-api",
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
   "line": 3,
-  "name": "Hello User!",
+  "name": "Get API!",
   "description": "",
-  "id": "echo;hello-user!",
+  "id": "get-api;get-api!",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
@@ -33,7 +33,7 @@ formatter.examples({
   "line": 8,
   "name": "",
   "description": "",
-  "id": "echo;hello-user!;",
+  "id": "get-api;get-api!;",
   "rows": [
     {
       "cells": [
@@ -41,7 +41,7 @@ formatter.examples({
         "String"
       ],
       "line": 9,
-      "id": "echo;hello-user!;;1"
+      "id": "get-api;get-api!;;1"
     },
     {
       "cells": [
@@ -49,16 +49,16 @@ formatter.examples({
         "Hello world."
       ],
       "line": 10,
-      "id": "echo;hello-user!;;2"
+      "id": "get-api;get-api!;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
   "line": 10,
-  "name": "Hello User!",
+  "name": "Get API!",
   "description": "",
-  "id": "echo;hello-user!;;2",
+  "id": "get-api;get-api!;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -93,14 +93,14 @@ formatter.match({
   "location": "EchoStepdefs.readURL(String)"
 });
 formatter.result({
-  "duration": 235433831,
+  "duration": 167424716,
   "status": "passed"
 });
 formatter.match({
   "location": "EchoStepdefs.askAPI()"
 });
 formatter.result({
-  "duration": 1230568748,
+  "duration": 1438110466,
   "status": "passed"
 });
 formatter.match({
@@ -113,7 +113,7 @@ formatter.match({
   "location": "EchoStepdefs.Receive(String)"
 });
 formatter.result({
-  "duration": 1848860,
+  "duration": 1581957,
   "status": "passed"
 });
 });
